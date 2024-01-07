@@ -37,9 +37,9 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/RUDRA-JAAT/Rudra-Music",
+    "https://github.com/tushar007ff/Itachi-music",
 )
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Rudra")
+UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Itachi")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
@@ -83,21 +83,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/eafbbd40e4bccb79bd956.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/0592ea63ab99370aae099.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/eafbbd40e4bccb79bd956.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/0592ea63ab99370aae099.jpg"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/eafbbd40e4bccb79bd956.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/eafbbd40e4bccb79bd956.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/eafbbd40e4bccb79bd956.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/eafbbd40e4bccb79bd956.jpg"
-STREAM_IMG_URL = "https://telegra.ph/file/eafbbd40e4bccb79bd956.jpg"
-SOUNCLOUD_IMG_URL = "https://telegra.ph/file/eafbbd40e4bccb79bd956.jpg"
-YOUTUBE_IMG_URL = "https://telegra.ph/file/eafbbd40e4bccb79bd956.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/eafbbd40e4bccb79bd956.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/eafbbd40e4bccb79bd956.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/eafbbd40e4bccb79bd956.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/0592ea63ab99370aae099.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/0592ea63ab99370aae099.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/0592ea63ab99370aae099.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/0592ea63ab99370aae099.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/0592ea63ab99370aae099.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/file/0592ea63ab99370aae099.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/0592ea63ab99370aae099.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/0592ea63ab99370aae099.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/0592ea63ab99370aae099.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/0592ea63ab99370aae099.jpg"
 
 
 def time_to_seconds(time):
@@ -113,7 +113,6 @@ if SUPPORT_CHANNEL:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_CHANNEL url is wrong. Please ensure that it starts with https://"
         )
-
 if SUPPORT_CHAT:
     if not re.match("(?:http|https)://", SUPPORT_CHAT):
         raise SystemExit(
